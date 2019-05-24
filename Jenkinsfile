@@ -19,7 +19,7 @@ pipeline {
     }
     stage('deploy') {
       steps {
-        sh 'mpm start'
+        sh 'npm start'
       }
     }
   }
